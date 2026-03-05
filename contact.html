@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="green-arrow-logo.png" alt="Logo Green Arrow" class="logo" />
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="livraison.html">Transport</a>
+        <a href="microhubs.html">Micro-hubs</a>
+        <a href="ressources.html">Ressources</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Nous contacter</h1>
+        <p>
+          Vous avez des questions ou souhaitez discuter de votre projet ?
+          Envoyez-nous un message.
+        </p>
+        <form action="#" method="post" id="contact-form">
+          <div class="form-group">
+            <label for="company">Nom de l'entreprise</label>
+            <input type="text" id="company" name="company" required />
+          </div>
+          <div class="form-group">
+            <label for="name">Nom et prénom</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Adresse e-mail</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Numéro de téléphone</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div class="form-group">
+            <label for="address">Adresse</label>
+            <input type="text" id="address" name="address" />
+          </div>
+          <div class="form-group">
+            <label for="message">Votre demande</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
+      </section>
+      <p><a href="index.html" class="btn">Retour à l'accueil</a></p>
+    </main>
+
+    <footer>&copy; 2026 Green Arrow Sustainable Solutions</footer>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+/* Styles principaux pour le site vert & gris */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* gris clair */
+  color: #333;
+}
+
+header {
+  background-color: #2e7d32; /* vert foncé */
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo {
+  max-width: 200px;
+  height: auto;
+}
+
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #2e7d32;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 10px 5px;
+  transition:
+    background-color 0.3s,
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.btn:hover {
+  background-color: #1b5e20;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition:
+    color 0.2s,
+    transform 0.2s;
+}
+
+nav a:hover {
+  color: #c8e6c9;
+  transform: translateY(-2px);
+}
+
+section h2 {
+  color: #2e7d32;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+section ul,
+section ol {
+  margin-left: 20px;
+}
+
+main .hero-image {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #ccc; /* gris moyen */
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #616161; /* gris foncé */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* formulaire contact */
+#contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  cursor: pointer;
+}
